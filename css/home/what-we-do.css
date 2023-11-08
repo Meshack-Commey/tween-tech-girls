@@ -1,0 +1,36 @@
+
+.what-we-do {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.what-we-do .text {
+    border: 1px solid inherit;
+    color: black;
+    margin: 3rem 0;
+}
+.text h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(29, 69, 129);
+}
+.text p{
+    font-size: 1rem;
+    color: gray;
+    width: 600px;
+}
+.text a{
+    color: rgb(29, 69, 129);
+    text-decoration: none;
+    margin: 2rem 0;
+}
+
+.what-we-do .image {
+    width: 500px;
+    border: 1px solid inherit;
+}
+
+.image img {
+    width: 100%;
+}

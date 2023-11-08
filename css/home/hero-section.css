@@ -1,0 +1,113 @@
+
+.hero-container {
+    border: 1px solid inherit;
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    padding: calc(1rem + 5vh) 0;
+    background: url('../../assets/tweens-tech-masthead.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    animation: hero-bg-image-animation 60s ease-in-out infinite 1s alternate;
+    animation-fill-mode: both;
+}
+@keyframes hero-bg-image-animation {
+    0% {
+        background: url('../../assets/tweens-tech-masthead.jpg');
+    }
+    25% {
+        background: url('../../assets/tech-enemy-1135x540.jpg.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    50% {
+        background: url('../../assets/BeginnersClass_1100.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    75% {
+        background: url('../../assets/images.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    100% {
+        background: url('../../assets/tween_tech_2020_2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.hero-row {
+    border: 1px solid inherit;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay {
+    background: rgb(29, 69, 129);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0.7;
+}
+.hero-text-box {
+    margin: 6rem 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.hero-text-box > h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+.hero-text-box > h2 {
+    font-size: 1rem;
+    margin-top: 3rem;
+    text-transform: capitalize;
+    border: 1px solid white;
+}
+
+.btn {
+    border: 1px solid rgb(29, 69, 129);
+    border-radius: 10px;
+    padding: 1rem 3rem;
+    margin: 1rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.outline {
+    background-color: white;
+    color: rgb(29, 69, 129);
+}
+.outline:hover {
+    border-color: inherit;
+    background-color: rgb(29, 69, 129);
+    color: white;
+}
+.success {
+    background-color: rgb(29, 69, 129);
+    color: white;
+}
+.success:hover {
+    border-color: inherit;
+    background-color: white;
+    color: rgb(29, 69, 129);
+}

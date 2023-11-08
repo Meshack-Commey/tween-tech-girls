@@ -1,0 +1,87 @@
+header {
+    background-color: rgb(29, 69, 129);
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Add more CSS for sections, footer, etc. */
+/* For smaller screens */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    header {
+        padding: 5px 0;
+    }
+    .logo {
+        font-size: 1.2rem;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    ul {
+        margin-top: 10px;
+    }
+    ul li {
+        margin: 10px 0;
+    }
+}
+
+/* For medium-sized screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+    .logo {
+        font-size: 1.4rem;
+    }
+    header {
+        padding: 8px 0;
+    }
+}
+
+/* For larger screens */
+@media only screen and (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+    .logo {
+        font-size: 1.5rem;
+    }
+    header {
+        padding: 10px 0;
+    }
+}

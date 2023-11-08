@@ -1,0 +1,86 @@
+@import url('./home//navbar.css');
+@import url('./home/hero-section.css');
+@import url('./home/what-we-do.css');
+@import url('./home/home-programs.css');
+@import url('./about/about-hero-section.css');
+
+
+/* Reset default margin and padding */
+body, h1, h2, h3, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    line-height: 1.6;
+}
+
+.container {
+    border: 1px solid inherit;
+    width: 100%;
+}
+
+.row {
+    border: 1px solid inherit;
+    margin: 5rem auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#club-icon {
+    font-size: 48px;
+    color: rgb(29, 69, 129);
+}
+
+.subscribe-container {
+    border: 1px solid green;
+    background: url('../assets/subscribe.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.subscribe .text p {
+    width: 520px;
+}
+
+.subscribe .text input[type='email']{
+    width: 400px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.subscribe .text input[type='submit']{
+    width: 150px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgb(29, 69, 129);
+    width: 100%;
+}
+.footer-row {
+    display: flex;
+    justify-content: start;
+    align-content: start;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px 0;
+    color: whitesmoke;
+}
